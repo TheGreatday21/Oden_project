@@ -31,7 +31,7 @@ class SimpleNotepad:
     def save_file(self) -> None:
         file_path: str = filedialog.asksaveasfilename(defaultextension='.txt',
                                                       filetypes=[('Text files', '*.txt')])
-        with open(file_path,  'w') as file:
+        with open(file_path, 'w') as file:
             file.write(self.text_area.get(1.0,tk.END))
 
         print(f"The file was saved to: {file_path}")
@@ -64,4 +64,7 @@ if __name__== '__main__':
 """
 Home work 
 1. Make it so that the save button saves the text to the current file if it already exists, instead of asking the user to create a new file each time
+
+This technically means to create a new button that takes in the user input and overrides a current file they want to just edit on not create a new file all the time 
+USE THE TK USER DOCUMENTATION  ONLINE 
 """ 
