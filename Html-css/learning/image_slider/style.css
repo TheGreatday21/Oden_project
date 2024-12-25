@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(44, 53, 147);
+
+}
+
+.container{
+    margin: 100px 10px 10px 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 28%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: ease-in 0.5s;
+}
+.container img:hover {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
